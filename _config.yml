@@ -1,3 +1,9 @@
-theme: minima
-markdown: kramdown
+# Site settings
+title:  Kirishiki Studios
+description: Software Development Studio
 
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
