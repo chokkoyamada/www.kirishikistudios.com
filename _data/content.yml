@@ -10,8 +10,14 @@
     * [Github](https://github.com/chokkoyamada)
     * [Twitter](https://twitter.com/satully)
     * [Blog](http://road288.hatenablog.com/)
-
+    * [Note](https://note.mu/chokkoy)
+    * [LinkedIn](https://www.linkedin.com/in/naoyukiyamada/)
 
 - section: お問い合わせ
   text: |
     やまだ(アルファベットで) @kirishikistudios.com
+
+- section: 登壇・メディア
+  text: |
+    * 2018/12/04 [Japan Container Days: ミドルウェア〜Webアプリまで全てをHelm化したサービスの運用事例](https://containerdays.jp/)[スライド](https://speakerdeck.com/chokkoyamada/midoruuea-webapurimadequan-tewohelmhua-sitasabisufalseyun-yong-shi-li)
+    * 2018/10/24 [Container SIG Meet-up 2018 Fall: パネルディスカッション「インフラとアプリの境界で」](https://containersig.connpass.com/event/101214/)
