@@ -15,7 +15,7 @@
     * [LinkedIn](https://www.linkedin.com/in/naoyukiyamada/)
     * [SlideShare](https://www.slideshare.net/Satully)
     * [SpeakerDeck](https://speakerdeck.com/chokkoyamada)
-    * 勤務先(2021年3月時点)
+    * 勤務先(2021年12月時点)
       - 株式会社ナイルワークス(フルタイム)
       - 業務委託 2社
 
@@ -23,10 +23,10 @@
   text: |
     バックエンド寄りのウェブアプリケーションエンジニア。  
     小さなエンジニアリングチームでの立ち上げから長期の運用まで、ウェブサービスの開発過程全般に興味・スキルがあります。  
-    AWS/GCPを中心にクラウド環境の構築・運用の経験が多く、運用の自動化(GitHub ActionsやCodePipelineでCI/CDの整備、TerraformやCloudformationでコード化、監視やログの整備など）を多く手掛けています。
+    AWS/GCPを中心にクラウド環境の構築・運用の経験が多く、運用の自動化(GitHub ActionsやCodePipelineでCI/CDの整備、TerraformやCDK/Cloudformationでコード化、監視やログの整備など）を多く手掛けています。
     サーバーサイドはPython, Ruby , NodeJS, Java/Scalaあたりが最近経験がありますが、担当する際には特定の言語・フレームワークにこだわりを持たず取り組みます。  
-    フロントエンドはReactを中心に少しできます。  
-    最近の興味はGraphQL。  
+    フロントエンドはReact/Next.jsを中心に少しできます。  
+    最近の興味はGraphQL。[Hasura](https://hasura.io/)のヘビーユーザー。
     ネイティブアプリはほとんどできません。  
 
 - section: お問い合わせ
@@ -35,6 +35,7 @@
 
 - section: 登壇・メディア
   text: |
+    * 2021/12/15 [企業と副業エンジニアに聞いた「スタートアップの副業のリアル」 | Coral Capital](https://coralcap.co/2021/12/engineer-side-hustles-at-startup/)
     * 2018/12/04 [Japan Container Days: ミドルウェア〜Webアプリまで全てをHelm化したサービスの運用事例](https://containerdays.jp/)
     ([スライド](https://speakerdeck.com/chokkoyamada/midoruuea-webapurimadequan-tewohelmhua-sitasabisufalseyun-yong-shi-li))([動画](https://crash.academy/video/587/1915))
     * 2018/10/24 [Container SIG Meet-up 2018 Fall: パネルディスカッション「インフラとアプリの境界で」](https://containersig.connpass.com/event/101214/)
