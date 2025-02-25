@@ -1,6 +1,6 @@
 ---
 title: 転職活動 (2025 年 2 月 ~ 2025 年 4 月)
-image: /assets/images/ogp.jpg
+image: /assets/images/ogp.png
 ---
 
 転職先を探しています。概要は以下です
