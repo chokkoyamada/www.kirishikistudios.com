@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "DAアルゴリズムと公立高校併願制について学べるサイトをClaude Sonnet 3.7で作った”
+title: DAアルゴリズムと公立高校併願制について学べるサイトをClaude Sonnet 3.7で作った
 date: 2025-03-10 19:40:49 +0900
-categories: memo
+categories: programming
 ---
 
 Twitter(X)で以下がバズっているのをみて、とても良いと思ったのだけど、実際どういうものかわかりやすく視覚的に学べるサイトがあればいいなと思って作ってみました。
