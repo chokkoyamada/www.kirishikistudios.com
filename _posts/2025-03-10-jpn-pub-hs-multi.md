@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DAアルゴリズムと公立高校併願制について学べるサイトをClaude Sonnet 3.7で作った
+title: DAアルゴリズムと公立高校併願制について学べるサイトをCline + Claude 3.7で作った
 date: 2025-03-10 19:40:49 +0900
 categories: programming
 ---
