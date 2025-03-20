@@ -30,7 +30,7 @@ https://docs.turso.tech/sdk/ts/guides/nextjs
 まずアーキテクチャの全体像を固めたあと、個々のタスクを洗い出し、その後、それぞれの開発に着手します。
 ```
 
-今回は [Cline Memory Bank | Cline](https://docs.cline.bot/improving-your-prompting-skills/custom-instructions-library/cline-memory-bank) を使って開発プロセスやタスク管理をきちんと行っています。ただし途中から面倒になって memory-bank の更新を待たずに、単発の不具合の修正を繰り返して仕上げてしまいました。
+今回は [Cline Memory Bank](https://docs.cline.bot/improving-your-prompting-skills/custom-instructions-library/cline-memory-bank) を使って開発プロセスやタスク管理をきちんと行っています。ただし途中から面倒になって memory-bank の更新を待たずに、単発の不具合の修正を繰り返して仕上げてしまいました。
 
 開発時間は 5 時間くらい。基本は Auto Approve しつつ、タスクが終わるごとに変更箇所をある程度コードを確認して把握しつつ、修正指示を出していきました。
 実際のコードは書いていませんが、コードを読んで具体的な修正指示はしています。
