@@ -46,6 +46,6 @@ Cline はどちらかというと AI がドライバー/人間がナビゲータ
 
 ※ Devinを使い始める場合、下記の招待リンクから登録してもらえると、招待した側・された側で互いにACU(クレジット)が得られるようなのでぜひお願いします。
 
-https://app.devin.ai/invite/10Q1SDWlLU7cSJnx
+[https://app.devin.ai/invite/10Q1SDWlLU7cSJnx](https://app.devin.ai/invite/10Q1SDWlLU7cSJnx)
 
 
