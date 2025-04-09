@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notion公式のMCPを使って検索とコメントを試した
+title: Notion公式のMCP Serverを使って検索とコメントを試した
 date: 2025-04-09 07:55 +0900
 ---
 
