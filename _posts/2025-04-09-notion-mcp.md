@@ -30,6 +30,10 @@ MCP Serverに使うNotionのintegration tokenは以下から生成できる。
 
 Notionは以前使っていたけどしばらく管理者としてさわっていなかったため、知識が無くてハマったのだが、Notion APIで検索にヒットさせるようにするには、ページ単位でConnectしておく必要がある。
 
+Notion公式の下記のページにも書いてある。
+
+[インテグレーションの追加と管理 – Notion (ノーション)ヘルプセンター](https://www.notion.com/ja/help/add-and-manage-connections-with-the-api#%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%B8%E3%81%AE%E3%82%B3%E3%83%8D%E3%82%AF%E3%83%88%E3%81%AE%E8%BF%BD%E5%8A%A0)
+
 下記の画像のように、ページの三点リーダーの「Connections」から、先程作ったIntegrationを追加しておく必要がある。親ページだけやれば良く、その配下の子ページには設定が伝播するようだ。
 
 ![Notion Connect]({{site.baseurl}}/assets/images/2025-04-09-1.png)
