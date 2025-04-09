@@ -10,9 +10,9 @@ Notion公式の MCP Serverがリリースされていたので試してみた。
 MCP Serverに使うNotionのintegration tokenは以下から生成できる。
 ただし、管理者権限が必要なようだ。自分が管理権限のないWorkspaceではIntegrationを有効化できなかった。
 
-[My Creator Profile | Notion](https://www.notion.so/profile/integrations)
+[My Creator Profile Notion](https://www.notion.so/profile/integrations)
 
-生成したinternal integration Secretを以下のJSONに含めて自分が浸かっているMCP Clientの設定に追加する。私はClineを使っている。なおGitHub Copilot AgentのMCPではなぜか「Failed to validate tool 2d9_API-post-database-query: TypeError: Cannot use 'in' operator to search for 'type' in true」というエラーになって使えなかった。
+生成したinternal integration Secretを以下のJSONに含めて自分が使っているMCP Clientの設定に追加する。私はClineを使っている。なおGitHub Copilot AgentのMCPではなぜか「Failed to validate tool 2d9_API-post-database-query: TypeError: Cannot use 'in' operator to search for 'type' in true」というエラーになって使えなかった。
 
 ```
 {
@@ -52,6 +52,3 @@ Notion公式の下記のページにも書いてある。
 できた事自体は「おぉ〜！」という驚きと喜びはあるけど、この1ステップのIntegrationだったらただのAPI連携だし、手動でやっても大した手間ではない。ここから、もうちょっと大きな粒度のタスクや自動化フローをまるっと任せることができてこそ意味があると思う。
 
 そうなると、ClineとかClaude Desktopのような対話型インタフェースではなく、横で待機していて必要なときにフォローしてくれるようなAmbientなAgentがいいなあと思う。
-
-
-
