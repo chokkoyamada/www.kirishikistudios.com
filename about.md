@@ -38,6 +38,15 @@ permalink: /about/
 
 - Email: やまだ(アルファベットで) @kirishikistudios.com
 
+## アクセス
+
+東京都豊島区南大塚2丁目38-1 リードシー大塚ビル 6F 6-17号室
+
+(郵便は受け付けていません)
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4364.908493183303!2d139.73141379999998!3d35.728955299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188dc61fb40cad%3A0xa6f04de634068aa!2zTUlEIFBPSU5U5aSn5aGa!5e1!3m2!1sja!2sjp!4v1744369294854!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
 ## 登壇・メディア
 
 - 2024/01/22 [AI Lab、人工知能分野のトップカンファレンス「AAAI 2024」にて 2 本の共著論文採択](https://www.cyberagent.co.jp/news/detail/id=29714)
