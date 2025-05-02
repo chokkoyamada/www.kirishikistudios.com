@@ -22,8 +22,8 @@ permalink: /about/
 - [SlideShare](https://www.slideshare.net/Satully)
 - [SpeakerDeck](https://speakerdeck.com/chokkoyamada)
 - [YOUTRUST](https://youtrust.jp/users/hanputu)
-- 勤務先/取引先(2025 年 2 月時点)
-  - 株式会社ナイルワークス(正社員) ドローン開発部 シニアエンジニア
+- 勤務先/取引先(2025 年 5 月時点)
+  - 株式会社Facilo(正社員) ソフトウェアエンジニア
   - 株式会社サイバーエージェント(業務委託) AILab 経済学社会実装チーム リサーチエンジニア
 
 ## 興味・スキル
