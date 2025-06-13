@@ -4,7 +4,7 @@ title: Ruby 3.4でCircularArgumentReferenceエラーがなくなった
 date: 2025-06-13 19:34 +0900
 ---
 
-Ruby 3.3 までは[CircularArgumentReference](https://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Lint/CircularArgumentReference)エラーで SyntaxError になっていたコードが、Ruby 3.4 からは許容されるようになった。
+Ruby 2.7~3.3 までは[CircularArgumentReference](https://www.rubydoc.info/gems/rubocop/RuboCop/Cop/Lint/CircularArgumentReference)エラーで SyntaxError になっていたコードが、Ruby 3.4 からは許容されるようになった。
 
 ## Ruby 3.3 までの挙動
 
