@@ -49,6 +49,7 @@ permalink: /about/
 
 ## 登壇・メディア
 
+- 2025/09/17 共著の書籍発売 [［AIと経済学］で もっとよくなる保育政策｜日本評論社](https://www.nippyo.co.jp/shop/book/9582.html)
 - 2024/12/10 [IoTの話がしたくて勉強会を開催した話](https://zenn.dev/smartshopping/articles/d3b0198e17a26e#%E3%83%86%E3%83%83%E3%82%AF%E3%83%88%E3%83%BC%E3%82%AF3-%E3%80%8Cduckdb%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E5%AE%89%E4%BE%A1%E3%81%AA%E3%83%87%E3%83%BC%E3%82%BF%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%80%8D-by-%E5%B1%B1%E7%94%B0-%E7%9B%B4%E8%A1%8C)
 - 2024/01/22 [AI Lab、人工知能分野のトップカンファレンス「AAAI 2024」にて 2 本の共著論文採択](https://www.cyberagent.co.jp/news/detail/id=29714)
 - 2023/04/21 [AWS Summit Tokyo ミニステージ登壇 ＼舞台裏／ ナイルワークスの自動飛行ドローンを支えるバックエンドシステム](https://www.nileworks.co.jp/news/info/20230424-38.html)
