@@ -23,7 +23,7 @@ permalink: /about/
 - [SpeakerDeck](https://speakerdeck.com/chokkoyamada)
 - [YOUTRUST](https://youtrust.jp/users/hanputu)
 - 勤務先/取引先(2025 年 5 月時点)
-  - 株式会社Facilo(正社員) ソフトウェアエンジニア
+  - 株式会社 Facilo(正社員) ソフトウェアエンジニア
   - 株式会社サイバーエージェント(業務委託) AILab 経済学社会実装チーム リサーチエンジニア
 
 ## 興味・スキル
@@ -40,19 +40,18 @@ permalink: /about/
 
 ## アクセス
 
-東京都豊島区南大塚2丁目38-1 リードシー大塚ビル 6F 6-17号室
+東京都豊島区南大塚 2 丁目 38-1 リードシー大塚ビル 6F 6-17 号室
 
 (郵便は受け付けていません)
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4364.908493183303!2d139.73141379999998!3d35.728955299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188dc61fb40cad%3A0xa6f04de634068aa!2zTUlEIFBPSU5U5aSn5aGa!5e1!3m2!1sja!2sjp!4v1744369294854!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-
 ## 登壇・メディア
 
-- 2025/12/10 [第24回情報科学技術フォーラム（FIT2025）で共著論文「ChilmAI: A New Daycare Matching System」がFIT論文賞に選出](https://www.ipsj.or.jp/award/fit_ronbun.html)
-- 2025/09/17 共著の書籍発売 [［AIと経済学］で もっとよくなる保育政策｜日本評論社](https://www.nippyo.co.jp/shop/book/9582.html)
 - 2025/01/19 [『［ＡＩと経済学］でもっとよくなる保育政策』【日本評論社】刊行記念 森脇大輔さん × 松木一永さん × 冨田燿志さん × 山田直行さん トーク＆ディスカッションイベント](https://store.kinokuniya.co.jp/event/1765786228/)
-- 2024/12/10 [IoTの話がしたくて勉強会を開催した話](https://zenn.dev/smartshopping/articles/d3b0198e17a26e#%E3%83%86%E3%83%83%E3%82%AF%E3%83%88%E3%83%BC%E3%82%AF3-%E3%80%8Cduckdb%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E5%AE%89%E4%BE%A1%E3%81%AA%E3%83%87%E3%83%BC%E3%82%BF%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%80%8D-by-%E5%B1%B1%E7%94%B0-%E7%9B%B4%E8%A1%8C)
+- 2025/12/10 [第 24 回情報科学技術フォーラム（FIT2025）で共著論文「ChilmAI: A New Daycare Matching System」が FIT 論文賞に選出](https://www.ipsj.or.jp/award/fit_ronbun.html)
+- 2025/09/17 共著の書籍発売 [［AI と経済学］で もっとよくなる保育政策｜日本評論社](https://www.nippyo.co.jp/shop/book/9582.html)
+- 2024/12/10 [IoT の話がしたくて勉強会を開催した話](https://zenn.dev/smartshopping/articles/d3b0198e17a26e#%E3%83%86%E3%83%83%E3%82%AF%E3%83%88%E3%83%BC%E3%82%AF3-%E3%80%8Cduckdb%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E5%AE%89%E4%BE%A1%E3%81%AA%E3%83%87%E3%83%BC%E3%82%BF%E3%83%9E%E3%83%8D%E3%82%B8%E3%83%A1%E3%83%B3%E3%83%88%E3%80%8D-by-%E5%B1%B1%E7%94%B0-%E7%9B%B4%E8%A1%8C)
 - 2024/01/22 [AI Lab、人工知能分野のトップカンファレンス「AAAI 2024」にて 2 本の共著論文採択](https://www.cyberagent.co.jp/news/detail/id=29714)
 - 2023/04/21 [AWS Summit Tokyo ミニステージ登壇 ＼舞台裏／ ナイルワークスの自動飛行ドローンを支えるバックエンドシステム](https://www.nileworks.co.jp/news/info/20230424-38.html)
 - 2021/12/15 [企業と副業エンジニアに聞いた「スタートアップの副業のリアル」](https://coralcap.co/2021/12/engineer-side-hustles-at-startup/)
