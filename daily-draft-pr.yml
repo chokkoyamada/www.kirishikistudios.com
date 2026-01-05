@@ -1,0 +1,81 @@
+# https://chatgpt.com/c/695a3c15-0964-8320-a3af-991876c35462
+name: Daily Jekyll draft PR (one PR per day)
+
+on:
+  schedule:
+    # GitHub Actions の cron は UTC
+    # 19:30 JST = 10:30 UTC
+    - cron: "30 10 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-draft-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Compute date variables (JST)
+        id: vars
+        shell: bash
+        run: |
+          set -euo pipefail
+          TODAY="$(TZ=Asia/Tokyo date +%F)"   # YYYY-MM-DD
+          echo "today=${TODAY}" >> "$GITHUB_OUTPUT"
+          echo "slug=${TODAY}_daily" >> "$GITHUB_OUTPUT"
+          echo "branch=auto/daily-draft-${TODAY}" >> "$GITHUB_OUTPUT"
+
+      - name: Create today's draft file
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          FILE="_drafts/${{ steps.vars.outputs.slug }}.md"
+          mkdir -p _drafts
+
+          # すでに存在する場合は何もしない（= その日のPRは作らない）
+          if [ -f "$FILE" ]; then
+            echo "Draft already exists: $FILE"
+            exit 0
+          fi
+
+          printf '%s\n' '---' \
+            'layout: post' \
+            'title: "${{ steps.vars.outputs.slug }}"' \
+            'date: ${{ steps.vars.outputs.today }} 19:30:00 +0900' \
+            '---' > "$FILE"
+
+          echo "Created: $FILE"
+
+      - name: Create Pull Request (one per day)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+          # PRの向き先
+          base: gh-pages
+
+          # ★ 日付入りブランチ → 毎日別PR
+          branch: ${{ steps.vars.outputs.branch }}
+          delete-branch: false
+
+          add-paths: |
+            _drafts/*.md
+
+          commit-message: "Add daily draft: ${{ steps.vars.outputs.slug }}"
+          title: "Daily draft: ${{ steps.vars.outputs.slug }}"
+          body: |
+            Auto-generated daily Jekyll draft.
+
+            - File: _drafts/${{ steps.vars.outputs.slug }}.md
+            - Created at: JST 19:30
+          labels: |
+            daily
+            draft
