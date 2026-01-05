@@ -32,17 +32,17 @@ jobs:
           echo "slug=${TODAY}_daily" >> "$GITHUB_OUTPUT"
           echo "branch=auto/daily-draft-${TODAY}" >> "$GITHUB_OUTPUT"
 
-      - name: Create today's draft file
+      - name: Create today's post file
         shell: bash
         run: |
           set -euo pipefail
 
-          FILE="_drafts/${{ steps.vars.outputs.slug }}.md"
-          mkdir -p _drafts
+          FILE="_posts/${{ steps.vars.outputs.today }}-daily.md"
+          mkdir -p _posts
 
           # すでに存在する場合は何もしない（= その日のPRは作らない）
           if [ -f "$FILE" ]; then
-            echo "Draft already exists: $FILE"
+            echo "Post already exists: $FILE"
             exit 0
           fi
 
@@ -67,14 +67,14 @@ jobs:
           delete-branch: false
 
           add-paths: |
-            _drafts/*.md
+            _posts/*.md
 
-          commit-message: "Add daily draft: ${{ steps.vars.outputs.slug }}"
-          title: "Daily draft: ${{ steps.vars.outputs.slug }}"
+          commit-message: "Add daily post: ${{ steps.vars.outputs.slug }}"
+          title: "Daily post: ${{ steps.vars.outputs.slug }}"
           body: |
-            Auto-generated daily Jekyll draft.
+            Auto-generated daily Jekyll post.
 
-            - File: _drafts/${{ steps.vars.outputs.slug }}.md
+            - File: _posts/${{ steps.vars.outputs.today }}-daily.md
             - Created at: JST 19:30
           labels: |
             daily
