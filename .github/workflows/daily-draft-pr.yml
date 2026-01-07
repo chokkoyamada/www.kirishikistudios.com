@@ -3,9 +3,7 @@ name: Daily Jekyll draft PR (one PR per day)
 
 on:
   schedule:
-    # GitHub Actions の cron は UTC
-    # 19:30 JST = 10:30 UTC
-    - cron: "30 10 * * *"
+    - cron: "30 8 * * 1-5" # Mon-Fri at 17:30 JST (8:30 UTC)
   workflow_dispatch: {}
 
 permissions:
@@ -79,3 +77,5 @@ jobs:
           labels: |
             daily
             draft
+          reviewers: |
+            chokkoyamada
