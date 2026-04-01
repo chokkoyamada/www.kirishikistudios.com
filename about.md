@@ -22,9 +22,9 @@ permalink: /about/
 - [SlideShare](https://www.slideshare.net/Satully)
 - [SpeakerDeck](https://speakerdeck.com/chokkoyamada)
 - [YOUTRUST](https://youtrust.jp/users/hanputu)
-- 勤務先/取引先(2025 年 5 月時点)
+- 勤務先/取引先(2026 年 4 月時点)
   - 株式会社 Facilo(正社員) ソフトウェアエンジニア
-  - 株式会社サイバーエージェント(業務委託) AILab 経済学社会実装チーム リサーチエンジニア
+  - 他、業務委託一社（非公開）
 
 ## 興味・スキル
 
@@ -40,7 +40,7 @@ permalink: /about/
 
 ## アクセス
 
-東京都豊島区南大塚 2 丁目 38-1 リードシー大塚ビル 7F 7-6 号室
+東京都豊島区南大塚 2 丁目 38-1 リードシー大塚ビル MID POINT大塚 7F 7-6 号室
 
 (郵便は受け付けていません)
 
